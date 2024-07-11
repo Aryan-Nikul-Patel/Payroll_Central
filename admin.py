@@ -30,11 +30,14 @@ def convert_to_dict(data):
 def get_users():
     try:
         cursor = mysql.connection.cursor()
-        cursor.execute('SELECT * FROM users')
+        cursor.execute('SELECT userid, role FROM users')
         result = cursor.fetchall()
 
-        write_to_csv('users', result)
-        update_json('users', result)
+        users_list = convert_to_dict_list(cursor, result)
+
+
+        write_to_csv('users', users_list)
+        update_json('users', users_list)
 
         return jsonify(result)
 

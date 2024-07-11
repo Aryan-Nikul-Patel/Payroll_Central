@@ -1,0 +1,58 @@
+[
+    {
+        "userid": "user1",
+        "role": "employee"
+    },
+    {
+        "userid": "user2",
+        "role": "admin"
+    },
+    {
+        "userid": "user3",
+        "role": "admin"
+    },
+    {
+        "userid": "new1",
+        "role": "employee"
+    },
+    {
+        "userid": "new3",
+        "role": "employee"
+    },
+    {
+        "userid": "aryan",
+        "role": "admin"
+    },
+    {
+        "userid": "arya",
+        "role": "admin"
+    },
+    {
+        "userid": "ary",
+        "role": "admin"
+    },
+    {
+        "userid": "ar",
+        "role": "admin"
+    },
+    {
+        "userid": "arr",
+        "role": "client"
+    },
+    {
+        "userid": "arrr",
+        "role": "employee"
+    },
+    {
+        "userid": "1",
+        "role": "employee"
+    },
+    {
+        "userid": "2",
+        "role": "client"
+    },
+    {
+        "userid": "3",
+        "role": "admin"
+    }
+]
