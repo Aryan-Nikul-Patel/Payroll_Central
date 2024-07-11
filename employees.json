@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Amit Sharma",
+        "position": "Software Engineer"
+    },
+    {
+        "id": 2,
+        "name": "Neha Gupta",
+        "position": "Data Analyst"
+    },
+    {
+        "id": 3,
+        "name": "Rajesh Kumar",
+        "position": "Project Manager"
+    },
+    {
+        "id": 4,
+        "name": "Pooja Singh",
+        "position": "HR Manager"
+    },
+    {
+        "id": 5,
+        "name": "Anil Mehta",
+        "position": "Accountant"
+    },
+    {
+        "id": 6,
+        "name": "Sunita Chauhan",
+        "position": "DevOps Engineer"
+    },
+    {
+        "id": 7,
+        "name": "Manoj Joshi",
+        "position": "Frontend Developer"
+    },
+    {
+        "id": 8,
+        "name": "Kavita Verma",
+        "position": "Backend Developer"
+    },
+    {
+        "id": 9,
+        "name": "Suresh Patil",
+        "position": "QA Engineer"
+    },
+    {
+        "id": 10,
+        "name": "Ramesh Desai",
+        "position": "System Administrator"
+    },
+    {
+        "id": 11,
+        "name": "Priya Kapoor",
+        "position": "Business Analyst"
+    },
+    {
+        "id": 12,
+        "name": "Vijay Iyer",
+        "position": "Technical Support"
+    },
+    {
+        "id": 13,
+        "name": "Aarti Nair",
+        "position": "UI/UX Designer"
+    },
+    {
+        "id": 14,
+        "name": "Deepak Sen",
+        "position": "Database Administrator"
+    },
+    {
+        "id": 15,
+        "name": "Megha Dubey",
+        "position": "Network Engineer"
+    },
+    {
+        "id": 16,
+        "name": "Santosh Rao",
+        "position": "Software Tester"
+    },
+    {
+        "id": 17,
+        "name": "Nitin Gupta",
+        "position": "Full Stack Developer"
+    },
+    {
+        "id": 18,
+        "name": "Anjali Jain",
+        "position": "Cloud Engineer"
+    },
+    {
+        "id": 19,
+        "name": "Mohit Arora",
+        "position": "Security Analyst"
+    },
+    {
+        "id": 20,
+        "name": "Preeti Mishra",
+        "position": "IT Manager"
+    }
+]

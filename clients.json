@@ -1,30 +1,142 @@
 [
     {
         "id": 1,
-        "name": "Beta Corp",
-        "contact_info": "info@betacorp.com",
-        "hourly_pay": null,
-        "overtime_pay": null
+        "name": "Tata Consultancy Services",
+        "contact_info": "contact@tcs.com",
+        "hourly_pay": 1500,
+        "overtime_pay": 2000
     },
     {
         "id": 2,
-        "name": "Beta Corp",
-        "contact_info": "info@betacorp.com",
-        "hourly_pay": 20,
-        "overtime_pay": 10
+        "name": "Infosys",
+        "contact_info": "info@infosys.com",
+        "hourly_pay": 1400,
+        "overtime_pay": 1900
     },
     {
         "id": 3,
-        "name": "Beta Corp",
-        "contact_info": "info@betacorp.com",
-        "hourly_pay": 20,
-        "overtime_pay": 10
+        "name": "Wipro",
+        "contact_info": "contact@wipro.com",
+        "hourly_pay": 1350,
+        "overtime_pay": 1850
     },
     {
         "id": 4,
-        "name": "hi Corp",
-        "contact_info": "hi@betacorp.com",
-        "hourly_pay": null,
-        "overtime_pay": null
+        "name": "HCL Technologies",
+        "contact_info": "support@hcl.com",
+        "hourly_pay": 1300,
+        "overtime_pay": 1800
+    },
+    {
+        "id": 5,
+        "name": "Tech Mahindra",
+        "contact_info": "info@techmahindra.com",
+        "hourly_pay": 1250,
+        "overtime_pay": 1750
+    },
+    {
+        "id": 6,
+        "name": "L&T Infotech",
+        "contact_info": "contact@lntinfotech.com",
+        "hourly_pay": 1200,
+        "overtime_pay": 1700
+    },
+    {
+        "id": 7,
+        "name": "Mindtree",
+        "contact_info": "support@mindtree.com",
+        "hourly_pay": 1150,
+        "overtime_pay": 1650
+    },
+    {
+        "id": 8,
+        "name": "Capgemini",
+        "contact_info": "info@capgemini.com",
+        "hourly_pay": 1100,
+        "overtime_pay": 1600
+    },
+    {
+        "id": 9,
+        "name": "Cognizant",
+        "contact_info": "contact@cognizant.com",
+        "hourly_pay": 1050,
+        "overtime_pay": 1550
+    },
+    {
+        "id": 10,
+        "name": "Accenture",
+        "contact_info": "support@accenture.com",
+        "hourly_pay": 1000,
+        "overtime_pay": 1500
+    },
+    {
+        "id": 11,
+        "name": "Genpact",
+        "contact_info": "info@genpact.com",
+        "hourly_pay": 950,
+        "overtime_pay": 1450
+    },
+    {
+        "id": 12,
+        "name": "Hexaware",
+        "contact_info": "contact@hexaware.com",
+        "hourly_pay": 900,
+        "overtime_pay": 1400
+    },
+    {
+        "id": 13,
+        "name": "Persistent Systems",
+        "contact_info": "support@persistent.com",
+        "hourly_pay": 850,
+        "overtime_pay": 1350
+    },
+    {
+        "id": 14,
+        "name": "Zensar Technologies",
+        "contact_info": "info@zensar.com",
+        "hourly_pay": 800,
+        "overtime_pay": 1300
+    },
+    {
+        "id": 15,
+        "name": "Birlasoft",
+        "contact_info": "contact@birlasoft.com",
+        "hourly_pay": 750,
+        "overtime_pay": 1250
+    },
+    {
+        "id": 16,
+        "name": "Cyient",
+        "contact_info": "support@cyient.com",
+        "hourly_pay": 700,
+        "overtime_pay": 1200
+    },
+    {
+        "id": 17,
+        "name": "Mphasis",
+        "contact_info": "info@mphasis.com",
+        "hourly_pay": 650,
+        "overtime_pay": 1150
+    },
+    {
+        "id": 18,
+        "name": "NIIT Technologies",
+        "contact_info": "contact@niit-tech.com",
+        "hourly_pay": 600,
+        "overtime_pay": 1100
+    },
+    {
+        "id": 19,
+        "name": "Syntel",
+        "contact_info": "support@syntel.com",
+        "hourly_pay": 550,
+        "overtime_pay": 1050
+    },
+    {
+        "id": 20,
+        "name": "Polaris Consulting",
+        "contact_info": "info@polaris.com",
+        "hourly_pay": 500,
+        "overtime_pay": 1000
     }
 ]

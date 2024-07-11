@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "employee_id": 1,
+        "total_payout": 262000
+    },
+    {
+        "id": 2,
+        "employee_id": 2,
+        "total_payout": 226700
+    },
+    {
+        "id": 3,
+        "employee_id": 3,
+        "total_payout": 254200
+    },
+    {
+        "id": 4,
+        "employee_id": 4,
+        "total_payout": 193800
+    },
+    {
+        "id": 5,
+        "employee_id": 5,
+        "total_payout": 172150
+    },
+    {
+        "id": 6,
+        "employee_id": 6,
+        "total_payout": 209100
+    },
+    {
+        "id": 7,
+        "employee_id": 7,
+        "total_payout": 185650
+    },
+    {
+        "id": 8,
+        "employee_id": 8,
+        "total_payout": 195700
+    },
+    {
+        "id": 9,
+        "employee_id": 9,
+        "total_payout": 171600
+    },
+    {
+        "id": 10,
+        "employee_id": 10,
+        "total_payout": 150300
+    },
+    {
+        "id": 11,
+        "employee_id": 11,
+        "total_payout": 131650
+    },
+    {
+        "id": 12,
+        "employee_id": 12,
+        "total_payout": 158400
+    },
+    {
+        "id": 13,
+        "employee_id": 13,
+        "total_payout": 138550
+    },
+    {
+        "id": 14,
+        "employee_id": 14,
+        "total_payout": 144400
+    },
+    {
+        "id": 15,
+        "employee_id": 15,
+        "total_payout": 124200
+    },
+    {
+        "id": 16,
+        "employee_id": 16,
+        "total_payout": 106500
+    },
+    {
+        "id": 17,
+        "employee_id": 17,
+        "total_payout": 91150
+    }
+]

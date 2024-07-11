@@ -1,5 +1,21 @@
 id,name,contact_info,hourly_pay,overtime_pay
-1,Beta Corp,info@betacorp.com,,
-2,Beta Corp,info@betacorp.com,20,10
-3,Beta Corp,info@betacorp.com,20,10
-4,hi Corp,hi@betacorp.com,,
+1,Tata Consultancy Services,contact@tcs.com,1500,2000
+2,Infosys,info@infosys.com,1400,1900
+3,Wipro,contact@wipro.com,1350,1850
+4,HCL Technologies,support@hcl.com,1300,1800
+5,Tech Mahindra,info@techmahindra.com,1250,1750
+6,L&T Infotech,contact@lntinfotech.com,1200,1700
+7,Mindtree,support@mindtree.com,1150,1650
+8,Capgemini,info@capgemini.com,1100,1600
+9,Cognizant,contact@cognizant.com,1050,1550
+10,Accenture,support@accenture.com,1000,1500
+11,Genpact,info@genpact.com,950,1450
+12,Hexaware,contact@hexaware.com,900,1400
+13,Persistent Systems,support@persistent.com,850,1350
+14,Zensar Technologies,info@zensar.com,800,1300
+15,Birlasoft,contact@birlasoft.com,750,1250
+16,Cyient,support@cyient.com,700,1200
+17,Mphasis,info@mphasis.com,650,1150
+18,NIIT Technologies,contact@niit-tech.com,600,1100
+19,Syntel,support@syntel.com,550,1050
+20,Polaris Consulting,info@polaris.com,500,1000

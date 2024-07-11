@@ -1,42 +1,17 @@
 [
     {
         "userid": 1,
-        "password_hash": "user1",
-        "role": "$2b$12$liukWLH1c8KRoyhlwLo5QOV9p8F/X8EUxQTekMZe2aNOTIy5cngOa"
+        "password_hash": "admin1",
+        "role": "$2b$12$VYfb4OwdrezuvqSGNKVzv.pa3p8Xz7g.wbo8bpdSiZ9VqR1NTnsn."
     },
     {
         "userid": 2,
-        "password_hash": "admin",
-        "role": "$2b$12$2AWXUPupRDhTacX7zlmpN.SSA4WMSD7BxYUjJgL84iFAVDWErVJ1u"
+        "password_hash": "client1",
+        "role": "$2b$12$qJBnO5q5jXyYyHb.RmKUzOBJSLl.wWl5fdiQEJoCdenMPO5fu1Ms6"
     },
     {
         "userid": 3,
-        "password_hash": "admin2",
-        "role": "$2b$12$os9RHWOzVAgruKOtoLJrpO3uqDattkmybUU5GLzX13O.MPtjj.hSK"
-    },
-    {
-        "userid": 5,
-        "password_hash": "admin3",
-        "role": "scrypt:32768:8:1$dQwsX8pwQUgiwljy$e630531f7e846cccb8cfa80c6ad473bab001429017cd96a229adb416533a71fc044bcc4b8787e4fa34da4bf47d27d842e1feafbe7a0ee922576f0142b7492f46"
-    },
-    {
-        "userid": 6,
-        "password_hash": "ad1",
-        "role": "scrypt:32768:8:1$CTyI3pmvF9Sh8ldb$8e90c505ba4003260bff1b5633822e80493358ce55cc4b06d8f56aa11ffafd15941d61d670e0c81ed0fdf8fc842638128c9d3bc6396517b338f22a644f123d66"
-    },
-    {
-        "userid": 7,
-        "password_hash": "c1",
-        "role": "scrypt:32768:8:1$t5mdCnEUFIEqcSf3$514751f5999954566ea2d0d94527e834220ed398735392c1e10ca53e850379778a151b758f42383c22921ddfa9638f7c27b9768f6196f0eae7ae8b6100305f99"
-    },
-    {
-        "userid": 8,
-        "password_hash": "John Doe",
-        "role": "$2b$12$1nZ4zeiuDf5es/NwqG3pHOKHDEDY.DX21YWTYhAmZ/2TzLcPFz5p."
-    },
-    {
-        "userid": 9,
-        "password_hash": "111",
-        "role": "$2b$12$fNdt3VUkD9jmef9dMPr06elRlbh7t.lOilJc2UJpzgVg9zuGu7aa."
+        "password_hash": "employee1",
+        "role": "$2b$12$tKadzSm7tZTMnZhvHE9SeuXkNpSWKs5ZnYd14Z4D43ftv7RkM46p2"
     }
 ]

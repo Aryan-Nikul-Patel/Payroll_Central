@@ -2,6 +2,8 @@ from flask import Blueprint, request, jsonify
 from login import login_required
 from utilities import write_to_csv, update_json
 from extensions import mysql
+from admin import convert_to_dict_list
+from admin import convert_to_dict
 
 client_bp = Blueprint('client', __name__)
 
@@ -128,6 +130,24 @@ def delete_client(id):
         update_json('clients', clients_data)
 
         return jsonify({'message': 'Client deleted successfully'})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+@client_bp.route('/client_payroll/<int:client_id>', methods=['GET'])
+@login_required('client')
+def get_client_payroll(client_id):
+    try:
+        cursor = mysql.connection.cursor()
+        cursor.execute('SELECT * FROM payroll WHERE client_id = %s', (client_id,))
+        result = cursor.fetchall()
+        
+        if not result:
+            return jsonify({'error': 'No payroll records found for this client'}), 404
+
+        payroll_data = convert_to_dict_list(cursor, result)
+
+        return jsonify(payroll_data)
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

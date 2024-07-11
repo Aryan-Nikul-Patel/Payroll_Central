@@ -2,6 +2,8 @@ from flask import Blueprint, request, jsonify
 from login import login_required
 from utilities import write_to_csv, update_json
 from extensions import mysql
+from admin import convert_to_dict_list
+from admin import convert_to_dict
 
 employee_bp = Blueprint('employee', __name__)
 
@@ -122,6 +124,24 @@ def delete_employee(id):
         update_json('employees', employees_data)
 
         return jsonify({'message': 'Employee deleted successfully'})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+@employee_bp.route('/employee_payroll/<int:employee_id>', methods=['GET'])
+@login_required('employee')
+def get_employee_payroll(employee_id):
+    try:
+        cursor = mysql.connection.cursor()
+        cursor.execute('SELECT * FROM payroll WHERE employee_id = %s', (employee_id,))
+        result = cursor.fetchall()
+        
+        if not result:
+            return jsonify({'error': 'No payroll records found for this employee'}), 404
+
+        payroll_data = convert_to_dict_list(cursor, result)
+
+        return jsonify(payroll_data)
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
