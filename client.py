@@ -56,7 +56,7 @@ def get_clients():
         return jsonify({'error': str(e)}), 500
 
 @client_bp.route('/clients/<int:id>', methods=['GET'])
-@login_required('client')
+@login_required('client', 'admin')
 def get_client(id):
     try:
         cursor = mysql.connection.cursor()

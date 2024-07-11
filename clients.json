@@ -1,23 +1,30 @@
 [
     {
+        "id": 1,
+        "name": "Beta Corp",
+        "contact_info": "info@betacorp.com",
+        "hourly_pay": null,
+        "overtime_pay": null
+    },
+    {
         "id": 2,
-        "name": "sasisanjay",
-        "contact_info": "sasisanjay@betacorp.com",
-        "hourly_pay": 25,
+        "name": "Beta Corp",
+        "contact_info": "info@betacorp.com",
+        "hourly_pay": 20,
         "overtime_pay": 10
     },
     {
         "id": 3,
-        "name": "sasisanjay",
-        "contact_info": "sasisanjay@betacorp.com",
-        "hourly_pay": 25,
-        "overtime_pay": 11
+        "name": "Beta Corp",
+        "contact_info": "info@betacorp.com",
+        "hourly_pay": 20,
+        "overtime_pay": 10
     },
     {
         "id": 4,
-        "name": "Client Company",
-        "contact_info": "contact@clientcompany.com",
-        "hourly_pay": 20,
-        "overtime_pay": 35
+        "name": "hi Corp",
+        "contact_info": "hi@betacorp.com",
+        "hourly_pay": null,
+        "overtime_pay": null
     }
 ]

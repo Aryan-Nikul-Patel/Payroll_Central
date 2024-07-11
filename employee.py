@@ -54,7 +54,7 @@ def get_employees():
         return jsonify({'error': str(e)}), 500
 
 @employee_bp.route('/employees/<int:id>', methods=['GET'])
-@login_required('employee')
+@login_required('employee', 'admin')
 def get_employee(id):
     try:
         cursor = mysql.connection.cursor()

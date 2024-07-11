@@ -73,11 +73,11 @@ def logout():
 
 
 # Authentication decorator
-def login_required(role):
+def login_required(*roles):
     def wrapper(f):
         @wraps(f)
         def wrap(*args, **kwargs):
-            if 'userid' in session and session.get('role') == role:
+            if 'userid' in session and session.get('role') in roles:
                 return f(*args, **kwargs)
             else:
                 return jsonify({'error': 'Unauthorized'}), 403
