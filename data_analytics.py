@@ -32,7 +32,7 @@ def hours_vs_payout():
     total_salary_df = pd.read_csv(csv_files['TotalSalary'])
     merged_df = payroll_df.merge(total_salary_df, left_on='employee_id', right_on='employee_id')
 
-    fig, ax = plt.subplots(figsize=(15, 10))
+    fig, ax = plt.subplots(figsize=(10, 6))
     sns.scatterplot(x=merged_df['No_of_hours_worked'], y=merged_df['total_payout'], ax=ax)
     ax.set_title('Hours Worked vs. Total Payout')
     ax.set_xlabel('Hours Worked')
@@ -45,7 +45,7 @@ def hours_vs_payout():
 def hourly_pay_distribution():
     clients_df = pd.read_csv(csv_files['clients'])
 
-    fig, ax = plt.subplots(figsize=(15, 10))
+    fig, ax = plt.subplots(figsize=(10, 6))
     sns.histplot(clients_df['hourly_pay'], bins=20, kde=True, ax=ax)
     ax.set_title('Distribution of Hourly Pay')
     ax.set_xlabel('Hourly Pay')
@@ -58,7 +58,7 @@ def hourly_pay_distribution():
 def employees_by_position():
     employees_df = pd.read_csv(csv_files['employees'])
 
-    fig, ax = plt.subplots(figsize=(15, 10))
+    fig, ax = plt.subplots(figsize=(10, 6))
     sns.countplot(data=employees_df, x='position', ax=ax)
     ax.set_title('Number of Employees by Position')
     ax.set_xlabel('Position')
@@ -76,7 +76,7 @@ def payout_by_position():
     merged_df = payroll_df.merge(total_salary_df, left_on='employee_id', right_on='employee_id')
     merged_df = merged_df.merge(employees_df, left_on='employee_id', right_on='id')
 
-    fig, ax = plt.subplots(figsize=(15, 10))
+    fig, ax = plt.subplots(figsize=(10, 6))
     sns.boxplot(data=merged_df, x='position', y='total_payout', ax=ax)
     ax.set_title('Total Payout by Position')
     ax.set_xlabel('Position')

@@ -2,8 +2,6 @@ from flask import Blueprint, request, jsonify
 from login import login_required
 from utilities import write_to_csv, update_json
 from extensions import mysql
-from admin import convert_to_dict_list
-from admin import convert_to_dict
 
 employee_bp = Blueprint('employee', __name__)
 
@@ -11,6 +9,10 @@ employee_bp = Blueprint('employee', __name__)
 def convert_to_dict(data):
     keys = ('id', 'name', 'position')
     return [dict(zip(keys, row)) for row in data]
+
+def convert_to_dict_list(cursor, result):
+    fieldnames = [i[0] for i in cursor.description]
+    return [dict(zip(fieldnames, row)) for row in result]
 
 @employee_bp.route('/employees', methods=['POST'])
 @login_required('admin')
@@ -127,6 +129,7 @@ def delete_employee(id):
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
     
 @employee_bp.route('/employee_payroll/<int:employee_id>', methods=['GET'])
 @login_required('employee')

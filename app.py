@@ -11,7 +11,7 @@ def create_app():
     app.secret_key = 'your_secret_key'
     app.config['MYSQL_HOST'] = 'localhost'
     app.config['MYSQL_USER'] = 'root'
-    app.config['MYSQL_PASSWORD'] = 'Password@123'
+    app.config['MYSQL_PASSWORD'] = 'SQLserver@123'
     app.config['MYSQL_DB'] = 'payroll_db'
 
     mysql.init_app(app)
